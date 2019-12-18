@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom'
 // Component Halaman Private
 import Pengaturan from './pengaturan'
 import Produk from './produk'
+import Transaksi from './transaksi'
 
 function Private() {
     return (
@@ -12,6 +13,7 @@ function Private() {
 
             <Route path="/pengaturan" component={Pengaturan} />
             <Route path="/produk" component={Produk} />
+            <Route path="/transaksi" component={Transaksi} />
 
         </Switch>
     )
