@@ -9,6 +9,7 @@ import Login from './pages/login';
 import LupaPassword from './pages/lupa-password';
 import NotFound from './pages/404';
 import Private from './pages/private';
+import Produk from './pages/private/produk';
 
 
 
@@ -18,6 +19,7 @@ function App() {
 
       <Switch>
         <Route path="/pengaturan" component={Private} />
+        <Route path="/produk" component={Produk} />
         <Route path="/registrasi" component={Registrasi} />
         <Route path="/login" component={Login} />
         <Route path="/lupa-password" component={LupaPassword} />
