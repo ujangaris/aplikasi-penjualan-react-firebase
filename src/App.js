@@ -18,6 +18,7 @@ function App() {
     <Router>
 
       <Switch>
+        <Route path="/" exact component={Private} />
         <Route path="/pengaturan" component={Private} />
         <Route path="/produk" component={Private} />
         <Route path="/transaksi" component={Private} />
